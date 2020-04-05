@@ -8,3 +8,5 @@ function getToys(){
   .then(res => res.json())
 }
 
+function postToy(toy_data){
+  
