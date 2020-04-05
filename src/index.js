@@ -11,4 +11,5 @@ function getToys(){
 function postToy(toy_data){
   fetch('http://localhost:3000/toys', {
     method: "POST",
-    
+    headers: {
+      
