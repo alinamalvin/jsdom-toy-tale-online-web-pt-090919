@@ -13,4 +13,5 @@ function postToy(toy_data){
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      "Accept": "application/json"
       
