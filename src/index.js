@@ -4,3 +4,4 @@ let addToy = false;
 let divCollect = document.querySelector('#toy-collection')
 
 function getToys(){
+  return fetch('http://localhost:3000/toys')
