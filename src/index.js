@@ -14,4 +14,5 @@ function postToy(toy_data){
     headers: {
       "Content-Type": "application/json",
       "Accept": "application/json"
-      
+    },
+    
